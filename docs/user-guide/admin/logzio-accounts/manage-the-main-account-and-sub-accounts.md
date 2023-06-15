@@ -9,19 +9,9 @@ If you're an admin for the main account, you can manage the main account and sub
 
 The Log Management plan panel is located at the top of the **[Manage accounts](https://app.logz.io/#/dashboard/settings/manage-accounts)** page.
 
-##### Manage your Log Management account
+## Manage your **Log Management** account
 
-* [View plan summary
-* [View and edit account details
-* [Configure which accounts can access a Logs data source
-* [Main vs. sub account
-* [Add and manage a Log Management sub account
-* [No correlation between logs and usage quota
-* [Delete a sub account from your plan
-* [Change how many GB are reserved to each account within your plan
-
-
-#### View Log Management plan summary
+### View Log Management plan summary
 
 Your Log account is calculated based on the data you ingest. You can choose to use a [flexible volume to get more control over how you allocate space and data between your accounts.
 
@@ -29,7 +19,7 @@ You can view the total number of daily GB available and the account's retention.
 
 ![Log plan overview](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/log-management-overview.png)
 
-#### View and edit account details
+### View and edit account details
 
 To see the detailed information and the configurable options for each account, click the account name in the table or pie chart.
 
@@ -50,11 +40,11 @@ You can add the following elements:
 
 ![Logs accounts details](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/log-management-account-inner.png)
 
-#### Configure which accounts can access a Logs data source
+### Configure which accounts can access a Logs data source
 
 Each log account can become a data source for other Logz.io Log Management accounts. To manage access to your data, you create an access list of the Logz.io main account and sub accounts that can view the data. 
 
-##### To grant access to the data in a Logs account
+#### To grant access to the data in a Logs account
 
 Users that are logged in to the accounts you add here will be able to read the data in this account.
 
@@ -65,7 +55,7 @@ Users that are logged in to the accounts you add here will be able to read the d
 ![Logs add account visibility](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/log-management-add-account.gif)
 
 
-#### Main vs. sub account
+### Main vs. sub account
 
 If you're on a Pro or Enterprise plan, you can create sub accounts to help manage user access to your data.
 
@@ -77,7 +67,7 @@ Sub accounts can also help you control access to sensitive data.
 
 By default, all users of your main account have permission to view the data in other logging sub accounts and timeless accounts. You can route different logs to different sub accounts to limit access to data.
 
-#### Add and manage a Log Management sub account
+### Add and manage a Log Management sub account
 
 Sub accounts share the same setting options as the main account (See the list above). In addition, sub accounts have settings used to control access to the data.
 
@@ -95,7 +85,6 @@ Choose the sub account name, retention, and volume options if relevant. On the r
 | **Save account utilization metrics** | Logs metrics on your account utilization, such as used and expected data volume at current indexing rate (GB). |
 | **Save log size** | Adds the logSizeEnabled field to each log, stating the log's size. |
 | **Use dashboards, visualizations, and saved searches from these accounts** | Choose the main account from which these elements will be visible on the sub account. Useful if you want to be able to access your main account's data from this sub account. |
-{:.paramlist}
 
 Click **Apply** to create the sub account.
 
@@ -104,7 +93,7 @@ If you already have a sub account and you'd like to re-configure it, choose the 
 ![Manage existing sub accounts](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/manage-sub-accounts.gif)
 
 
-#### No correlation between your logs and usage quota
+### No correlation between your logs and usage quota
 
 You or your team see a small number of logs ingested with a high usage quota. 
 
@@ -113,13 +102,13 @@ This happens when you apply the **Today** time frame to view logs and is the res
 
 If you encounter this issue, you can adjust the time frame settings or contact **[Logz.io's Support team](mailto:help@logz.io)** for additional info and assistance.
 
-#### Delete a sub account from your plan
+### Delete a sub account from your plan
 
 Choose the Log Management sub account you want to delete, and click the **Delete** icon located next to its name. 
 
 Then, confirm (or Cancel) the action.
 
-#### Change how many GB are reserved for each account within your plan
+### Change how many GB are reserved for each account within your plan
 
 You can edit the amount of GB reserved for each of your Log Management accounts.
 
@@ -143,11 +132,11 @@ If you're an admin for the main account, you can manage the main account and sub
 
 ![Timeless accounts](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/accounts--timeless-accounts.png)
 
-##### To create or manage a timeless account
+## Create or manage a **timeless** account
 
 
 
-##### Select or add a timeless account
+#### 1. Select or add a timeless account
 
 In the **Timeless account plan** panel,
 click the timeless account you want to manage,
@@ -155,7 +144,7 @@ or click **Add timeless account**.
 
 ![Manage a timeless account](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/accounts--manage-timeless-account.png)
 
-##### Adjust account volume
+#### 2. Adjust account volume
 
 If you need to adjust the **Timeless account volume**,
 type in the text box
@@ -167,39 +156,39 @@ Keep this limit in mind when you allocate resources to your timeless accounts—
 Contact your Logz.io account manager if you need to increase your plan limits.
 
 
-##### Set search permissions
+#### 3. Set search permissions
 
 If you want your sub accounts to be able to search this account,
 add the intended accounts to the **Read & write permissions** box.
 
-##### Save your changes
+#### 4. Save your changes
 
 Click **Apply** to save your changes.
 
 
-#### To clean a timeless account
+### To clean a timeless account
 
 
 
-##### Find your timeless account plan
+#### 1. Find your timeless account plan
 
 Log into your Logz.io account, navigate to **[Manage accounts](https://app.logz.io/#/dashboard/settings/manage-accounts)**, and find your timeless account plan.
 
 ![Timeless account plan](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/timeless-account-manage.png)
 
-##### Choose the relevant account
+### 2. Choose the relevant account
 
 Click on the account you'd like to clean. Then, in the dropdown menu, you'll be able to review the account's data usage.
 
 ![Timeless account plan expanded](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/timeless-account-in-use.png)
 
-##### Clean the data
+### 3. Clean the data
 
 Click on the **Clean** button to open a popup with additional options. You can decide what log data to delete from your timeless account in this popup. Select the date range in which you'd like to clean the data. You can also select specific optimizers to clean. Next, click on **Continue**.
 
 ![Clean timeless data](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/timeless-date-and-optimizers-msg.png)
 
-##### Confirm the clean
+### 4. Confirm the clean
 
 The final confirmation window summarizes how many log messages will be deleted in this process. This process might take a few minutes, depending on the number of log messages, and is irreversible. To confirm, click on the **Yes, please clean my account** button.
 
@@ -215,20 +204,9 @@ You can view your Distributed Tracing account plan and the specific details and 
 If you don't have a Distributed Tracing account yet, start a trial in the Distributed Tracing tab.
 
 
-### Manage your Tracing account
+## Manage your **Tracing** account
 
-* [View plan summary
-* [View details of specific accounts
-* [Update account name
-* [Configure account access
-* [Add a Tracing account
-* [Delete a Tracing account
-* [Edit and allocate spans
-* [Tracing surge protection
-* [Troubleshooting
-
-
-#### View the plan summary and account allocations
+### View the plan summary and account allocations
 
 Your Tracing account is based on spans: a building block of a trace, a named, timed operation representing a piece of the workflow in distributed systems.
 
@@ -236,7 +214,7 @@ You can view your monthly available spans, your plan's data retention time, and 
 
 ![Tracing account summary](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/main-tracing-account-jul.png)
 
-#### View details and options for a specific account
+### View details and options for a specific account
 
 To see the detailed information and the configurable options for each account, click the account name in the table or pie chart. 
 
@@ -255,13 +233,13 @@ And change the following account options:
 * Total spans allocated from the Distributed Tracing plan to this specific data source, which defines how many spans per calendar month can be ingested into this data source
 * Remaining portion of the overall Distributed Tracing plan that can still be allocated to additional tracing data sources (accounts) 
 
-#### Update the account name
+### Update the account name
 
 Enter a new **Tracing account name** and **Save** to update your changes, or **Cancel** to discard them.
 
 ![Rename a tracing account](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/tracing-new-name-jul.png)
 
-#### Configure which accounts can access a tracing data source
+### Configure which accounts can access a tracing data source
 
 Each Distributed Tracing account can function as a data source for other Logz.io accounts.
 To manage access to your tracing data, you create an access list of the Logz.io main account and sub accounts that can view the span data for each tracing account. You can see the list of all the sub accounts (and main account) in the top right of the application page, in the account selector.
@@ -280,7 +258,7 @@ they can choose the tracing account as a data source in the Jaeger interface of 
   ![Access to tracing account data for other accounts](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/tracing-sub-account.gif)
 
 
-#### Add a tracing account to your plan
+### Add a tracing account to your plan
 
 You can configure up to 5 tracing accounts for your Distributed Tracing plan. If you need the ability to add more tracing accounts, reach out to your account manager or [the Sales team](mailto:sales@logz.io).
 {:.info-box.note}
@@ -298,7 +276,7 @@ You can configure up to 5 tracing accounts for your Distributed Tracing plan. If
 
 ![Adding a new tracing account](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/new-tracing-account-flow-jul.gif)
 
-#### Delete a tracing account from your plan
+### Delete a tracing account from your plan
  
 1. In the account details, click the **Delete** icon next to the account name.
   ![delete](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/delete-tracing-account-jul.png)   
@@ -307,7 +285,7 @@ You can configure up to 5 tracing accounts for your Distributed Tracing plan. If
   ![Confirm delete](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/confirm-delete-tracingacct2.png)
 
 
-#### Change spans allocation across Distributed Tracing accounts within your plan
+### Change spans allocation across Distributed Tracing accounts within your plan
 
 Juggle the allocated spans per month of your Distributed Tracing account plan between the different tracing accounts according to each account's current usage details. Each data source has its quota defined in the **Spans** column. 
 
@@ -323,7 +301,7 @@ By **setting a daily limit**, you can ensure incidents and issues won't consume 
 In the example below, **New Tracing Account 2**  is not using its allocated spans: It would be reasonable to reduce its monthly allocation and increase the allocation for the **Tracing** account. 
 ![juggle allocated spans](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/shiftspans-betweenaccts-jul.png)
 
-#### Tracing surge protection
+### Tracing surge protection
 
 Your Distributed Tracing accounts are limited by a monthly quota of a number of spans, representing your Distributed Tracing plan. 
 
@@ -342,7 +320,7 @@ If your Tracing account's overall daily span number exceeds the **estimated dail
 
 When an account exceeds 80% of the allowed daily spans, account admins will receive an email alert indicating an unusual traffic event in the Tracing account, providing extra time to examine the issue before the ingestion stops.
 
-#### Troubleshooting
+### Troubleshooting
 
 If your Tracing account exceeded its quota, the first thing you'll need to do is check that the overall quota is assigned to your account.
 
@@ -377,14 +355,10 @@ reach out to your account manager
 or email [the Sales team](mailto:sales@logz.io).
 
 
-### Manage your Cloud SIEM account
-
-* [Add a Cloud SIEM account
-* [Configure or update your Cloud SIEM account
-* [Delete a Cloud SIEM account
+## Manage your **Cloud SIEM** account
 
 
-#### Add a Cloud SIEM account
+### Add a Cloud SIEM account
 
 You'll find your Cloud SIEM accounts
 in the [Manage accounts](https://app.logz.io/#/dashboard/settings/manage-accounts) page
@@ -396,7 +370,7 @@ The number of accounts you can create is listed.
 ![Add a Cloud SIEM account](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/add-security-account11.png)
 
 
-#### Configure or update a Cloud SIEM account
+### Configure or update a Cloud SIEM account
 
 ![Configure a Cloud SIEM account](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/config-security-account.png)
 
@@ -425,14 +399,14 @@ Fill in the form:
   + You can use this process to keep a local backup copy of these data objects. 
   + Create a library of data objects in your main Security account, and then enable client accounts to use objects from your main account.  
 
-#### Save your changes
+### Save your changes
 
 Click **Create**/**Apply** to save your changes.
 
 When you first add a new account, give it a few minutes to finish setting up.
 
 
-#### Delete a Cloud SIEM account from your plan 
+### Delete a Cloud SIEM account from your plan 
  
 1. In the account details, click the **Delete** icon next to the account name.
   ![delete](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/delete-SIEM.png)   
@@ -451,17 +425,9 @@ If you don't have an Infrastructure Monitoring account yet,
 reach out to your account manager or email [the Sales team](mailto:sales@logz.io).
 
 
-##### Manage your Infrastructure Monitoring account
+## Manage your **Metrics - Infrastructure Monitoring** account
 
-* [View plan summary
-* [View details and abilities for a specific account
-* [Configure which accounts can access a Metrics data source
-* [Add a Metrics account to your plan
-* [Delete a Metrics account
-* [Change how many UMs are allocated to each Metrics account
-
-
-#### View plan summary
+### View plan summary
 
 Your Metrics account is calculated according to the unique metrics (UMs) you're using. These metrics are a combination of the metric type queries by PromQL, including counters, gauges, histograms, and summaries.
 
@@ -469,7 +435,7 @@ You can view your daily and monthly available UMs, and a breakdown of each accou
 
 ![Metrics plan overview](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/metrics-plan-overview.png)
 
-#### View details and abilities for a specific account
+### View details and abilities for a specific account
 
 To see the detailed information and the configurable options for each account, click the account name in the table or pie chart.
 
@@ -489,11 +455,11 @@ You can edit the following elements:
 
 ![Metrics accounts details](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/metrics-account-details.png)
 
-#### Configure which accounts can access a Metrics data source
+### Configure which accounts can access a Metrics data source
 
 Each Metrics account can become a data source for other Logz.io Metrics accounts. To manage access to your metrics data, you create an access list of the Logz.io main account and sub accounts that can view the data for each Metrics account. In the account selector, you can see the list of all the sub accounts (and main account) in the top right of the application page.
 
-##### To grant access to the data in a Metrics account
+#### To grant access to the data in a Metrics account
 
 If users are logged in to the accounts you add here, they'll be able to read the metrics in this account.
 
@@ -504,7 +470,7 @@ If users are logged in to the accounts you add here, they'll be able to read the
 ![Metrics add account visibility](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/metrics-visibility.gif)
 
 
-#### Add a Metrics account to your plan
+### Add a Metrics account to your plan
 
 You can add up to 5 Metrics accounts for your Infrastructure Monitoring plan. If you need the ability to add more accounts, reach out to your account manager or [Logz.io's Sales team](mailto:sales@logz.io).
 
@@ -517,13 +483,13 @@ You can add up to 5 Metrics accounts for your Infrastructure Monitoring plan. If
 4. Configure the **total monthly UMs** you want to allocate to the new account. If you don’t have UMs available, you’ll be prompted to reduce the allocation of another account.
 5. Click **Apply** to apply your changes.
 
-#### Delete a Metrics account from your plan
+### Delete a Metrics account from your plan
 
 Choose the Metrics account you want to delete, and click the **Delete** icon located next to its name. 
 
 Then, confirm (or Cancel) the action.
 
-#### Change how many UMs are allocated to each account within your plan
+### Change how many UMs are allocated to each account within your plan
 
 Set how many unique metrics (UMs) are allocated to each account from the overall Infrastructure Monitoring plan. 
 

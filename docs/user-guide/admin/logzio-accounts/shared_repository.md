@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 title: Manage the shared SIEM Repository
 ---
 
@@ -7,7 +7,7 @@ title: Manage the shared SIEM Repository
 
 Build, prepare, and test your security content in a single SIEM account, set it as the shared SIEM Repository, and share the content in the Repository with your other SIEM accounts.
 
-The Repository acts as a centralized resource for all your SIEM content. When you set up a shared Repository, you can configure your other SIEM accounts to pull dashboards, visualizations, saved searches, and [private security feeds from it. 
+The Repository acts as a centralized resource for all your SIEM content. When you set up a shared Repository, you can configure your other SIEM accounts to pull dashboards, visualizations, saved searches, and [private security feeds](/user-guide/cloud-siem/private-feeds) from it. 
 
 All new SIEM accounts automatically pull from the shared Repository: You can manually disable access to the shared Repository for any SIEM account.
 
@@ -71,4 +71,4 @@ To delete your current Repository, you must first reset it to remove the depende
 
 ## Private feeds in the shared Security Repository
 
-Define a [private feed once in your SIEM Repository and share it with the relevant Security accounts. You can find more information on how to include private feeds in your Repository in [Adding a private feed.
+Define a [private feed](/user-guide/siem/ioc-types/) once in your SIEM Repository and share it with the relevant Security accounts. You can find more information on how to include private feeds in your Repository in [Adding a private feed](/user-guide/cloud-siem/private-feeds.html).

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: Flexible volume
+sidebar_position: 5
+title: Flexible Volume
 ---
 
 Flexible volume gives you more control over how you allocate space between your accounts.
@@ -15,6 +15,11 @@ With flexible volume, accounts can share indexing capacity and use it as needed.
 
 
 Flexible volume is a global setting that applies to your time-based logging accounts. To reach it, go to [**<i class="li li-gear"></i> > Settings > Manage accounts**](https://app.logz.io/#/dashboard/settings/manage-accounts). This page is only available when logged in to the main account as an admin user.
+
+
+:::note
+You can include up to 200 sub accounts when flexible volume is enabled. To add more sub accounts, you’ll have to disable the flexible volume option.
+:::
 
 
 
@@ -44,7 +49,7 @@ Flexible volume is a global setting that applies to your time-based logging acco
 
   It is possible for an account to have zero reserved volume. In this case, data capacity is entirely dependent on the availability of shared volume. Keep in mind that this configuration does not guarantee indexing capacity for the account and subsequently could lead to data loss whenever shared volume is not available.
 
-### Account utilization notifications
+## Account utilization notifications
 
 When flexible volume is enabled, your plan's shared volume helps to protect against data loss. Still, to help prevent surprises and help you avoid data loss, Logz.io sends out notification emails to account admins to alert them of the following:
 
@@ -53,16 +58,16 @@ When flexible volume is enabled, your plan's shared volume helps to protect agai
 | Shared volume | 80% of shared volume is spent for the day. | 100% of shared volume is spent for the day. Only accounts with available reserved volume can continue to index logs. No shared capacity will be available until the index switches at 00:00 UTC tonight. |
 | Account cap | Account has reached 80% of its daily cap. | Account has reached 100% of its daily cap. It will no longer accept data until the index switches at 00:00 UTC. |
 
-#### Configure flexible capacity accounts
+## Configure flexible capacity accounts
 
 
-##### Enable flexible volume for your plan
+### 1. Enable flexible volume for your plan
 
 Go to [**<i class="li li-gear"></i> > Settings > Manage accounts**](https://app.logz.io/#/dashboard/settings/manage-accounts) to manage your plan. This page is only available when logged in to the main account as an admin user.
 
 To enable flexible volume, toggle the button **Use flexible volume** to turn it on.
 
-##### Configure account capacity
+### 2. Configure account capacity
 
 Click an account from your list to select it. Or, click **Add sub account** to create a new sub account.
 

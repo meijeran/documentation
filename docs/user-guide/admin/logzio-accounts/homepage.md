@@ -1,14 +1,13 @@
 ---
-sidebar_position: 2
-title: On Demand Pricing FAQ
-
+sidebar_position: 10
+title: Set a Custom Logz.io Landing Page
 ---
 
 You can set a custom landing page to view when logging into your Logz.io account.
 
 The landing page can be any screen, dashboard, and visualization from your Logs, Metrics, or Tracing accounts.
 
-#### Set up your landing page
+## Set up your landing page
 
 Your default landing page is the [OpenSearch Dashboards](https://app.logz.io/#/dashboard/osd) main screen. 
 
@@ -37,6 +36,7 @@ Each item on the list includes:
 
 
 |**Icon**|**Location**|
+|--|--|
 |![logs](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/landing-page/logs.svg)|Logs|
 |![metrics](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/landing-page/metrics.svg)|Metrics|
 |![tracing](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/landing-page/tracing.svg)|Tracing|
@@ -45,7 +45,7 @@ For example, **Payment SLO** has the Metrics logo, stating it's part of your Met
 
 ![Landing page info](https://dytvr9ot2sszz.cloudfront.net/logz-docs/accounts/landing-page/landing-page-choose.png)
 
-#### Reset your landing page
+## Reset your landing page
 
 To reset your chosen Landing page, navigate to **[Settings > General Settings](https://app.logz.io/#/dashboard/settings/general)** and click on the **Reset to default** option next to the landing page.
 
