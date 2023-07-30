@@ -144,6 +144,10 @@ const config = {
                 label: 'Report a security issue',
                 to: 'https://docs.logz.io/report-a-security-issue/',
               },
+              {
+                label: 'Sending Data to Logz.io',
+                to: '/docs/user-guide/limitations/',
+              },
             ],
           },
           {
